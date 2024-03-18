@@ -1,0 +1,38 @@
+#carouselTestimonials {
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .col-md-5 {
+            text-align: center;
+            margin-bottom: 2rem;
+
+            .rounded-circle {
+                width: 150px;
+                height: 150px;
+                overflow: hidden;
+                margin: auto;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            
+            
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .centralInfo{
+        margin: 1rem ;
+    }
+
+}

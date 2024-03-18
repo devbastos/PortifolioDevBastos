@@ -1,0 +1,12 @@
+<ng-container *ngIf="isMobile; else desktopContent">
+
+    <div class="container custom-background">
+        <app-footer-template></app-footer-template>
+    </div>
+</ng-container>
+
+<ng-template #desktopContent>
+    <!-- Conteúdo para desktops -->
+    <app-footer-template></app-footer-template>
+
+</ng-template>

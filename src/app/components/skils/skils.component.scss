@@ -1,0 +1,26 @@
+#skills_container {
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+}
+
+svg {
+    width: 15%;
+    margin-top: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    svg {
+        width: 30%;
+    }
+
+    #skills_container {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        width: 18rem;
+        margin: 0.4rem;
+    }
+}
