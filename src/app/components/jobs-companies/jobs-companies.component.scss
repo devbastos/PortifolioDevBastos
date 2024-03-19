@@ -37,8 +37,10 @@ figure {
 }
 
 @media (max-width: 768px) {
-    .card{
-        width: 17rem ;
-    }
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
 }
