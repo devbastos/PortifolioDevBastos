@@ -1,15 +1,15 @@
-
 .custom-background {
-    background-color: #6E07F3; /* Vermelho */
+    background-color: #6E07F3; /* Cor de fundo */
     color: white;
     padding: 20px; /* Adicione um preenchimento para separar o conteúdo do fundo */
-    width: 100vw; /* Defina a largura para ocupar 100% da largura da viewport */
-    height: 20rem; /* Defina a altura vertical */
+    width: 100%; /* Defina a largura para ocupar 100% do contêiner pai */
+    min-height: 31rem; /* Defina uma altura mínima */
 }
 
 h4 {
     margin-top: 2rem; /* Reduzindo a margem superior para torná-lo mais responsivo */
 }
+
 
 @media (max-width: 768px) {
     h4 {
@@ -17,15 +17,14 @@ h4 {
     }
 
     p{
-        margin: 1rem;
         margin-bottom: 2rem;
     }
 
     .custom-background {
-        background-color: #6E07F3; /* Vermelho */
+        background-color: #6E07F3; /* Cor de fundo */
         color: white;
         padding: 20px; /* Adicione um preenchimento para separar o conteúdo do fundo */
-        width: 90vw; /* Defina a largura para ocupar 100% da largura da viewport */
-        height: 25rem; /* Defina a altura vertical */
+        width: 90%; /* Defina a largura para ocupar 90% do contêiner pai */
+        min-height: 40rem; /* Defina uma altura mínima */
     }
 }

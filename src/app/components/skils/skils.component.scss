@@ -1,3 +1,4 @@
+
 #skills_container {
     margin-top: -6rem;
     margin-bottom: 2rem;
@@ -8,6 +9,9 @@ svg {
     margin-top: 2rem;
 }
 
+.card-text{
+    color: #6E07F3;
+}
 /* Responsividade */
 @media (max-width: 768px) {
     svg {
@@ -20,3 +24,19 @@ svg {
     }
 
 }
+
+.circle-container {
+    display: inline-block;
+    width: 200px; /* Defina o tamanho do círculo aqui */
+    height: 200px; /* Defina o tamanho do círculo aqui */
+    border-radius: 50%; /* Para criar um círculo */
+    overflow: hidden; /* Para garantir que a imagem fique dentro do círculo */
+    position: relative;
+}
+
+.circle-image {
+    width: 30%;
+    height: 30%;
+    object-fit: cover; /* Para ajustar a imagem dentro do círculo */
+}
+

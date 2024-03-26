@@ -21,6 +21,18 @@
     margin-top: 5rem;
 }
 
+a{
+color: white;
+}
+
+.bi{
+    transition: fill 0.3s, transform 0.3s;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+}
+
 @media (max-width: 767px) {
     .logo {
         margin-top: 2rem;
