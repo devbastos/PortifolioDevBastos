@@ -1,15 +1,29 @@
 .custom-background {
-    background-color: #6E07F3; 
+    background-color: #25535B; 
     color: white;
     padding: 20px; 
     width: 100%; 
     margin-top: -5rem; 
 }
 
+.btn-outline-primary {
+    background-color: #25535b;
+    border-color: #25535b
+}
+
+a{
+    color:white;
+}
+
+.btn-outline-primary:hover {
+    background-color: #B15330;
+    border-color: #B15330
+}
+
 .componentFlutuante{
     margin-left: 8rem;
     width: 85%;
-    background-color: #141c3a;
+    background-color: #062D3E;
     position: relative; /* Certifique-se de que o posicionamento seja relativo */
     z-index: 9999; /* Defina um valor alto para o z-index */
     border-radius: 30px; /* Defina o raio do arredondamento das bordas */
@@ -49,7 +63,7 @@ color: white;
     }
 
     .custom-background {
-        background-color: #6f42c1;
+        background-color: #25535B;
         padding: 50px 0;
         border-radius: 30px; /* Adicionando border-radius */
         margin-left: 0.7rem;

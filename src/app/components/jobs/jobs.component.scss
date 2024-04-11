@@ -23,17 +23,30 @@ figure {
   transition: opacity 0.3s;
 }
 
+a {
+  color:#B15330;
+ }
+
+ a:hover {
+  color:#fff;
+ }
+ 
+ .linkEmail:hover {
+  color: #25535B;
+ }
+
 .card-title,
 .card-text {
   margin-bottom: 1rem;
 }
 
 .card:hover .card-img-top {
-  opacity: 0; /* Faz a imagem desaparecer quando o mouse passa sobre o cartão */
+  opacity: 10; 
 }
 
 .card:hover .card-img-overlay {
-  opacity: 1; /* Faz o overlay com o texto aparecer quando o mouse passa sobre o cartão */
+  opacity: 1; 
+
 }
 
 @media (max-width: 768px) {
